@@ -3,6 +3,7 @@ import pycuda.driver as cuda
 import pycuda.gpuarray as garray
 from pycuda.compiler import SourceModule
 from pycuda.tools import dtype_to_ctype, context_dependent_memoize
+import networkx as nx
 
 import neurokernel.LPU.utils.curand as curand
 from neurokernel.LPU.utils.simpleio import *
